@@ -4,24 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
-    <!-- SEO & Open Graph -->
     <title>Un mese di OssitocinaLibera | Accompagnamento all’allattamento</title>
-    <meta name="description" content="Un mese insieme, una settimana alla volta. Scopri i percorsi di gruppo di OssitocinaLibera e scegli come vivere un mese di accompagnamento durante l’allattamento.">
-    <meta property="og:title" content="Un mese di OssitocinaLibera | Accompagnamento all’allattamento">
-    <meta property="og:description" content="Un mese insieme, una settimana alla volta. Un accompagnamento guidato passo dopo passo durante una fase del tuo allattamento.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ossitocinalibera.it">
-    <meta property="og:image" content="https://placehold.co/1200x630/FEEAEB/111111?text=Un+mese+di+OssitocinaLibera">
+    <meta name="description" content="Un mese insieme, una settimana alla volta. Supporto continuativo e confronto per il tuo allattamento.">
     
-    <!-- Favicon fallback -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
-
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Tailwind CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     
     <script>
@@ -30,19 +19,11 @@
                 extend: {
                     colors: {
                         ol: {
-                            yellow: '#FFB010',
-                            pink: '#F9B4C7',
-                            orange: '#F19821',
-                            magenta: '#F60094',
-                            lightpink: '#FEEAEB',
-                            dark: '#4A3B3C',
-                            white: '#FFFFFF'
+                            yellow: '#FFB010', pink: '#F9B4C7', orange: '#F19821', magenta: '#F60094',
+                            lightpink: '#FEEAEB', dark: '#4A3B3C', white: '#FFFFFF'
                         }
                     },
-                    fontFamily: {
-                        sans: ['"DM Sans"', 'sans-serif'],
-                        heading: ['Montserrat', 'sans-serif'],
-                    }
+                    fontFamily: { sans: ['"DM Sans"', 'sans-serif'], heading: ['Montserrat', 'sans-serif'] }
                 }
             }
         }
@@ -52,308 +33,283 @@
         html { scroll-behavior: smooth; overflow-x: hidden; }
         body { font-family: 'DM Sans', sans-serif; color: #4A3B3C; background-color: #FFFFFF; overflow-x: hidden; width: 100%; }
         h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
-        
-        .btn-primary {
-            background-color: #F19821;
-            color: #FFFFFF;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(241, 152, 33, 0.2);
-        }
-        .btn-primary:hover {
-            background-color: #F60094;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(246, 0, 148, 0.3);
-        }
-        
-        .btn-secondary {
-            background-color: #FEEAEB;
-            color: #4A3B3C;
-            border: 1px solid #F9B4C7;
-            transition: all 0.3s ease;
-        }
-        .btn-secondary:hover {
-            background-color: #F9B4C7;
-            border-color: #F60094;
-        }
-
+        .btn-primary { background-color: #F19821; color: #FFFFFF; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(241, 152, 33, 0.2); }
+        .btn-primary:hover { background-color: #F60094; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(246, 0, 148, 0.3); }
         .accent-dot { color: #F60094; font-weight: bold; }
     </style>
 </head>
 <body class="antialiased text-ol-dark">
 
-    <header class="bg-ol-lightpink pt-12 pb-20 px-4 sm:px-6 lg:px-12 relative flex flex-col justify-center items-center min-h-[90vh]">
-        <!-- Decorazioni -->
+    <header class="bg-ol-lightpink pt-10 pb-12 px-4 sm:px-6 lg:px-12 relative flex flex-col justify-center items-center min-h-[85vh]">
         <div class="absolute inset-0 w-full h-full overflow-hidden z-0 pointer-events-none">
             <div class="absolute top-[-5%] left-[-10%] w-72 h-72 bg-ol-pink rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
             <div class="absolute bottom-[-10%] right-[-5%] w-80 h-80 bg-ol-yellow rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
         </div>
 
         <div class="w-full max-w-4xl mx-auto text-center relative z-10 flex flex-col items-center">
-            <div class="inline-block py-1.5 px-4 rounded-full bg-white text-ol-orange text-xs sm:text-sm font-bold uppercase tracking-widest mb-6 shadow-sm border border-ol-pink/30">
+            <div class="inline-block py-1.5 px-4 rounded-full bg-white text-ol-orange text-xs sm:text-sm font-bold uppercase tracking-widest mb-4 shadow-sm border border-ol-pink/30">
                 Prima Edizione · Ottobre
             </div>
             
-            <h1 class="text-[2rem] sm:text-4xl md:text-6xl lg:text-7xl font-extrabold font-heading text-ol-dark mb-4 leading-tight tracking-tight px-2">
+            <h1 class="text-[2rem] sm:text-4xl md:text-6xl lg:text-7xl font-extrabold font-heading text-ol-dark mb-2 leading-tight tracking-tight px-2">
                 UN MESE DI OSSITOCINALIBERA
             </h1>
             
-            <h2 class="text-lg sm:text-2xl md:text-3xl italic font-serif text-ol-magenta mb-8 font-medium px-4">
-                “Un mese insieme, una settimana alla volta.”
+            <h2 class="text-lg sm:text-2xl md:text-3xl italic font-serif text-ol-magenta mb-6 font-medium px-4">
+                Smetti di sentirti sola. Ritrova sicurezza nel tuo allattamento.
             </h2>
             
-            <p class="text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10 text-ol-dark/90 px-4">
-                Un mese di affiancamento clinico ed emotivo con me, <strong class="font-bold text-ol-dark">qualunque sia il tuo allattamento</strong> (esclusivo, misto o con biberon).<br><br>
-                Uno spazio sicuro dove non sei mai giudicata, dove puoi <strong class="font-bold text-ol-dark">portare le tue domande nel momento esatto in cui arrivano</strong> e avere una rotta chiara da seguire.
+            <p class="text-base sm:text-lg md:text-xl leading-snug max-w-2xl mx-auto mb-8 text-ol-dark/90 px-4">
+                Non devi affrontare i dubbi e le fatiche navigando a vista.<br><br>
+                Ho creato questo percorso per offrirti <strong class="font-bold text-ol-magenta">un affiancamento clinico continuativo e un confronto sicuro</strong>. Uno spazio dove portare le tue ansie mentre arrivano, ricevendo strategie pratiche, <strong class="font-bold text-ol-dark">qualunque sia la tua scelta o fatica</strong> (seno, misto o biberon).
             </p>
 
-            <div class="bg-white/95 backdrop-blur-md rounded-3xl p-5 md:p-8 mb-10 shadow-lg border border-white/50 w-[95%] max-w-2xl mx-auto">
-                <div class="text-xs sm:text-sm uppercase tracking-widest text-ol-magenta font-bold mb-4">
-                    Iscrizioni chiudono il 27 Settembre <br>
-                    <span class="text-xs normal-case text-ol-dark/60 font-medium">(Inizio ufficiale: 1° Ottobre)</span>
+            <div class="bg-white/95 backdrop-blur-md rounded-3xl p-5 md:p-6 mb-8 shadow-lg border border-white/50 w-[95%] max-w-3xl mx-auto">
+                <div class="text-sm md:text-base font-bold text-ol-dark mb-1 uppercase tracking-wide">Le porte chiudono ufficialmente il 27 Settembre:</div>
+                
+                <!-- Timer Contatore Elegante -->
+                <div id="countdown-container" class="flex justify-center gap-2 sm:gap-4 mt-3 mb-6">
+                    <div class="flex flex-col items-center justify-center bg-ol-lightpink/60 rounded-xl w-14 h-14 sm:w-16 sm:h-16 border border-ol-pink/30 shadow-sm">
+                        <span id="days" class="text-xl sm:text-2xl font-heading font-bold text-ol-magenta">00</span>
+                        <span class="text-[8px] sm:text-[9px] uppercase tracking-widest text-ol-dark/60 font-bold mt-0.5">Giorni</span>
+                    </div>
+                    <div class="flex flex-col items-center justify-center bg-ol-lightpink/60 rounded-xl w-14 h-14 sm:w-16 sm:h-16 border border-ol-pink/30 shadow-sm">
+                        <span id="hours" class="text-xl sm:text-2xl font-heading font-bold text-ol-magenta">00</span>
+                        <span class="text-[8px] sm:text-[9px] uppercase tracking-widest text-ol-dark/60 font-bold mt-0.5">Ore</span>
+                    </div>
+                    <div class="flex flex-col items-center justify-center bg-ol-lightpink/60 rounded-xl w-14 h-14 sm:w-16 sm:h-16 border border-ol-pink/30 shadow-sm">
+                        <span id="minutes" class="text-xl sm:text-2xl font-heading font-bold text-ol-magenta">00</span>
+                        <span class="text-[8px] sm:text-[9px] uppercase tracking-widest text-ol-dark/60 font-bold mt-0.5">Min</span>
+                    </div>
+                    <div class="flex flex-col items-center justify-center bg-ol-lightpink/60 rounded-xl w-14 h-14 sm:w-16 sm:h-16 border border-ol-pink/30 shadow-sm">
+                        <span id="seconds" class="text-xl sm:text-2xl font-heading font-bold text-ol-magenta">00</span>
+                        <span class="text-[8px] sm:text-[9px] uppercase tracking-widest text-ol-dark/60 font-bold mt-0.5">Sec</span>
+                    </div>
                 </div>
                 
-                <div class="flex flex-col sm:flex-row gap-6 md:gap-8 justify-center items-center">
-                    <div class="flex flex-col items-center gap-1 w-full sm:w-auto">
-                        <span class="text-2xl mb-1">🌿</span>
-                        <div class="text-xs sm:text-sm font-bold text-ol-dark/80 uppercase tracking-wide text-center">Nel Villaggio</div>
+                <div class="flex flex-col sm:flex-row gap-4 md:gap-8 justify-center items-center pt-4 border-t border-ol-pink/20">
+                    <div class="flex flex-col items-center gap-0.5 w-full sm:w-auto">
+                        <div class="text-xs sm:text-sm font-bold text-ol-dark/80 uppercase tracking-wide text-center">🌿 Nel Villaggio</div>
                         <div class="font-bold font-heading text-3xl text-ol-orange">79 €</div>
-                        <div class="text-[10px] sm:text-xs font-semibold text-ol-dark/50 uppercase text-center bg-gray-50 px-2 py-1 rounded">Quota di Lancio</div>
                     </div>
                     
-                    <div class="hidden sm:block w-px h-16 bg-ol-pink/50"></div>
+                    <div class="hidden sm:block w-px h-12 bg-ol-pink/50"></div>
                     <div class="block sm:hidden w-3/4 h-px bg-ol-pink/30"></div>
                     
-                    <div class="flex flex-col items-center gap-1 w-full sm:w-auto">
-                        <span class="text-2xl mb-1">🌱</span>
-                        <div class="text-xs sm:text-sm font-bold text-ol-dark/80 uppercase tracking-wide text-center">Al tuo fianco</div>
+                    <div class="flex flex-col items-center gap-0.5 w-full sm:w-auto">
+                        <div class="text-xs sm:text-sm font-bold text-ol-dark/80 uppercase tracking-wide text-center">🌱 Al tuo fianco</div>
                         <div class="font-bold font-heading text-3xl text-ol-orange">129 €</div>
-                        <div class="text-[10px] sm:text-xs font-semibold text-ol-dark/50 uppercase text-center bg-gray-50 px-2 py-1 rounded">Quota di Lancio</div>
                     </div>
                 </div>
             </div>
 
             <div class="w-full flex justify-center px-4">
-                <a href="#percorsi" class="btn-primary inline-block font-heading font-bold px-6 sm:px-10 py-4 rounded-xl text-sm sm:text-lg w-full sm:w-auto text-center shadow-lg hover:shadow-xl transition-all">
-                    VEDI I DETTAGLI E BLOCCA IL TUO POSTO
+                <a href="#percorsi" class="btn-primary inline-block font-heading font-bold px-6 sm:px-10 py-3.5 rounded-xl text-sm sm:text-lg w-full sm:w-auto text-center shadow-lg hover:shadow-xl transition-all">
+                    VEDI I DETTAGLI E BLOCCA IL POSTO
                 </a>
             </div>
         </div>
     </header>
 
-    <section class="py-16 md:py-24 px-6 lg:px-12 bg-white relative">
+    <section class="py-12 md:py-16 px-6 lg:px-12 bg-white relative">
         <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-2xl md:text-5xl font-heading font-bold mb-8 md:mb-12 leading-tight text-ol-dark">
-                E se smettessi di cercare risposte a caso su Google di notte?
+            <h2 class="text-2xl md:text-4xl font-heading font-bold mb-6 leading-tight text-ol-dark">
+                E se smettessi di cercare risposte a caso su Google alle 3 di notte?
             </h2>
-            <div class="text-base md:text-xl leading-relaxed space-y-6 text-ol-dark/80 px-2">
-                <p>Ci sono momenti in cui una domanda non arriva tutta insieme.</p>
-                <p>Oggi c'è un pianto al seno. Tra qualche giorno devi calibrare un'aggiunta. La settimana dopo emerge un dubbio completamente nuovo sui ritmi del sonno.</p>
-                <p class="font-medium text-ol-dark text-xl md:text-2xl mt-8">Ed è proprio lì che ti serve un punto di riferimento saldo.</p>
-                <p>Non l'ennesimo consiglio non richiesto. Qualcuno con la competenza clinica per valutare la *tua* situazione reale (dall'attacco, ai biberon specifici come Lansinoh o Dr. Brown's, fino alla gestione di ingorghi e fatiche) e l'empatia per <strong class="text-ol-dark font-semibold">ascoltarti senza farti mai sentire sbagliata.</strong></p>
-                <div class="pt-6">
-                    <p class="inline-block border-b-2 border-ol-magenta pb-1 font-heading font-bold text-ol-magenta text-lg md:text-xl tracking-wide uppercase">Questo è Un mese di OssitocinaLibera.</p>
+            <div class="text-base md:text-lg leading-snug space-y-4 text-ol-dark/80 px-2">
+                <p>La vita con i bambini piccoli è imprevedibile, e le domande non arrivano mai tutte insieme.</p>
+                <p>Oggi ti scontra con <strong class="font-bold text-ol-dark">un dolore al seno o un pianto inconsolabile</strong>. Tra qualche giorno devi calibrare un'<strong class="font-bold text-ol-dark">aggiunta</strong> o scegliere il biberon giusto. La settimana dopo l'ansia sale per la <strong class="font-bold text-ol-dark">gestione del tiralatte o per i ritmi del sonno</strong>.</p>
+                <p class="font-medium text-ol-dark text-lg md:text-xl mt-6">I consigli generici non ti aiutano. Generano solo più confusione e senso di inadeguatezza.</p>
+                <p>Non hai bisogno dell'ennesima opinione non richiesta. Ti serve <strong class="font-bold text-ol-magenta">una guida clinica sicura</strong> che valuti la *tua* situazione reale in ogni fase, e <strong class="font-bold text-ol-magenta">uno spazio senza giudizio</strong> dove abbassare finalmente le difese.</p>
+                <div class="pt-4">
+                    <p class="inline-block border-b-2 border-ol-magenta pb-1 font-heading font-bold text-ol-magenta text-lg tracking-wide uppercase">Questo è Un mese di OssitocinaLibera.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-16 md:py-24 px-6 lg:px-12 bg-ol-lightpink/50 border-y border-ol-pink/20">
+    <section class="py-12 md:py-16 px-6 lg:px-12 bg-ol-lightpink/50 border-y border-ol-pink/20">
         <div class="max-w-4xl mx-auto text-center">
-            <div class="mb-8">
-                <span class="text-5xl text-ol-pink">♡</span>
-            </div>
-            <h2 class="text-2xl md:text-4xl font-heading font-bold mb-8 text-ol-dark">
+            <div class="mb-4"><span class="text-4xl text-ol-pink">♡</span></div>
+            <h2 class="text-2xl md:text-3xl font-heading font-bold mb-6 text-ol-dark">
                 Ci sono io, per tutto il mese.
             </h2>
-            <div class="text-base md:text-xl leading-relaxed space-y-5 text-ol-dark/80 max-w-3xl mx-auto px-2">
+            <div class="text-base md:text-lg leading-snug space-y-4 text-ol-dark/80 max-w-3xl mx-auto px-2">
                 <p>Sono <strong class="text-ol-dark font-bold">Annelisa Brunelli (Anne)</strong>, IBCLC, Puericultrice ed Educatrice Perinatale Mipa.</p>
-                <p>Ho creato questo spazio perché nella mia pratica clinica c'è una regola fissa: **non separo mai la scienza dall'emotività.** L'evidenza scientifica non serve a nulla se non viene calata nella tua stanchezza e nei tuoi bisogni reali.</p>
+                <p>Nella mia pratica clinica c'è una regola fissa: <strong class="font-bold text-ol-magenta">non separo mai la scienza dall'emotività.</strong> Ti accompagno in ogni fase, offrendo un supporto saldo, aggiornato e basato sulle evidenze scientifiche, senza tralasciare mai l'ascolto attivo.</p>
                 
-                <div class="bg-white p-6 md:p-10 rounded-2xl md:rounded-3xl border border-ol-pink/30 shadow-sm mt-10 text-left md:text-center">
-                    <p class="font-medium text-ol-dark text-sm md:text-base">
-                        Durante il mese sarò io a inquadrare la tua situazione clinica, raccogliere i tuoi dubbi su WhatsApp, fornirti strategie pratiche per il seno o il biberon e creare uno spazio di profondo ascolto. <strong class="text-ol-magenta">Passo dopo passo, senza giudizio.</strong>
+                <div class="bg-white p-5 md:p-8 rounded-2xl border border-ol-pink/30 shadow-sm mt-6 text-left md:text-center">
+                    <p class="font-medium text-ol-dark text-sm md:text-base leading-snug">
+                        Come IBCLC la mia assistenza clinica copre tutto: dall'<strong class="font-bold">avvio dell'allattamento</strong>, alla gestione dei dolori acuti (<strong class="font-bold">ragadi, ingorghi, mastiti</strong>), passando per l'<strong class="font-bold">alimentazione mista</strong>, fino allo svezzamento e al rientro a lavoro. Il tuo desiderio di <strong class="font-bold text-ol-magenta">vivere la maternità con serenità e competenza</strong> è il mio obiettivo. Passo dopo passo, senza giudizio.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="percorsi" class="py-16 md:py-24 px-4 sm:px-6 lg:px-12 bg-white">
+    <section id="percorsi" class="py-12 md:py-16 px-4 sm:px-6 lg:px-12 bg-white">
         <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12 md:mb-16">
-                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">
-                    Due modi per vivere il mese con me
-                </h2>
-                <p class="text-lg md:text-xl text-ol-dark/70 px-4">
-                    Stessa identica cura clinica e umana. Cambia il modo in cui viviamo il gruppo.
-                </p>
+            <div class="text-center mb-10 md:mb-12">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-2">Due modi per vivere il mese con me</h2>
+                <p class="text-base md:text-lg text-ol-dark/70 px-4 font-medium">Stessa cura clinica. Scegli come vuoi vivere l'energia del gruppo.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
-                
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
                 <!-- Card 1: Nel Villaggio -->
-                <div class="bg-white border-2 border-ol-lightpink rounded-3xl p-6 lg:p-10 shadow-lg hover:shadow-xl transition-shadow flex flex-col relative overflow-hidden">
-                    <div class="absolute top-0 right-0 bg-gray-100 text-ol-dark text-xs md:text-sm font-bold px-4 py-2 rounded-bl-xl border-b border-l border-gray-200">
-                        Solo 30 Posti
+                <div class="bg-white border-2 border-ol-lightpink rounded-3xl p-6 shadow-lg hover:shadow-xl transition-shadow flex flex-col relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-gray-100 text-ol-dark text-xs font-bold px-3 py-1.5 rounded-bl-xl border-b border-l border-gray-200">
+                        Max 30 mamme
                     </div>
                     
-                    <div class="text-4xl mb-4 mt-2">🌿</div>
-                    <h3 class="text-2xl font-heading font-bold mb-3">Nel Villaggio</h3>
-                    <p class="text-sm md:text-base text-ol-dark/80 mb-6 min-h-[70px]">
+                    <div class="text-3xl mb-2 mt-1">🌿</div>
+                    <h3 class="text-xl font-heading font-bold mb-2">Nel Villaggio</h3>
+                    <p class="text-sm text-ol-dark/80 mb-5 min-h-[50px]">
                         “Per chi desidera normalizzare ciò che vive, confrontandosi quotidianamente in un gruppo protetto e sentendosi finalmente meno sola.”
                     </p>
                     
-                    <div class="bg-gray-50 rounded-xl p-5 md:p-6 mb-8 flex-grow">
-                        <div class="font-bold mb-4 text-xs uppercase tracking-wider text-ol-dark/60">Il mese include:</div>
-                        <ul class="space-y-3 text-sm">
+                    <div class="bg-gray-50 rounded-xl p-4 md:p-5 mb-6 flex-grow">
+                        <ul class="space-y-2.5 text-sm font-medium">
                             <li class="flex items-start gap-2"><span class="accent-dot">•</span> Incontro live di apertura e Incontro finale (2 ore)</li>
                             <li class="flex items-start gap-2"><span class="accent-dot">•</span> Gruppo WhatsApp condiviso sempre attivo</li>
-                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> 2 dirette intermedie per rispondere alle domande emerse</li>
-                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Il Quaderno del tuo mese con OssitocinaLibera</li>
-                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Riepiloghi scritti e materiali pratici</li>
+                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> 2 dirette intermedie per analizzare i vostri dubbi</li>
+                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Materiali pratici e riepiloghi</li>
                         </ul>
                     </div>
 
-                    <div class="text-center mb-6">
-                        <div class="text-xs font-bold text-ol-orange mb-1 uppercase tracking-wider">Quota di lancio limitata</div>
-                        <div class="text-5xl font-heading font-extrabold mb-1">79 €</div>
-                        <div class="text-ol-dark/50 text-xs line-through decoration-ol-pink mb-2">Poi salirà a 99 €</div>
+                    <div class="text-center mb-5">
+                        <div class="text-[10px] font-bold text-ol-orange mb-0.5 uppercase tracking-wider">Quota di lancio</div>
+                        <div class="text-4xl font-heading font-extrabold mb-1">79 €</div>
                     </div>
 
-                    <a href="https://tidycal.com/ossitocinalibera/percorso-di-gruppo-un-mese-di-ossitocinalibera-nel-villaggio-m5n50en" target="_blank" rel="noopener noreferrer" class="btn-primary block w-full text-center py-4 rounded-xl font-heading font-bold text-sm md:text-lg">
+                    <a href="https://tidycal.com/ossitocinalibera/percorso-di-gruppo-un-mese-di-ossitocinalibera-nel-villaggio-m5n50en" target="_blank" rel="noopener noreferrer" class="btn-primary block w-full text-center py-3.5 rounded-xl font-heading font-bold text-sm">
                         ENTRA NEL VILLAGGIO
                     </a>
                 </div>
 
                 <!-- Card 2: Al tuo fianco -->
-                <div class="bg-ol-lightpink/20 border-2 border-ol-pink rounded-3xl p-6 lg:p-10 shadow-lg hover:shadow-xl transition-shadow flex flex-col relative overflow-hidden">
-                    <div class="absolute top-0 right-0 bg-ol-pink text-white text-xs md:text-sm font-bold px-4 py-2 rounded-bl-xl shadow-sm">
+                <div class="bg-ol-lightpink/20 border-2 border-ol-pink rounded-3xl p-6 shadow-lg hover:shadow-xl transition-shadow flex flex-col relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-ol-pink text-white text-xs font-bold px-3 py-1.5 rounded-bl-xl shadow-sm">
                         Solo 8 Posti Intimi
                     </div>
 
-                    <div class="text-4xl mb-4 mt-2">🌱</div>
-                    <h3 class="text-2xl font-heading font-bold mb-3">Al tuo fianco</h3>
-                    <p class="text-sm md:text-base text-ol-dark/80 mb-6 min-h-[70px]">
-                        “Per chi ha bisogno di uno spazio intimo, un'analisi personalizzata della propria fatica (es. attacco, tiralatte, dolori) e il mio occhio clinico costante.”
+                    <div class="text-3xl mb-2 mt-1">🌱</div>
+                    <h3 class="text-xl font-heading font-bold mb-2">Al tuo fianco</h3>
+                    <p class="text-sm text-ol-dark/80 mb-5 min-h-[50px]">
+                        “Per chi ha bisogno di uno spazio intimo, un'analisi personalizzata della propria fatica e il mio occhio clinico costante.”
                     </p>
                     
-                    <div class="bg-white rounded-xl p-5 md:p-6 mb-8 flex-grow border border-ol-pink/20">
-                        <div class="font-bold mb-4 text-xs uppercase tracking-wider text-ol-dark/60">Il mese include:</div>
-                        <ul class="space-y-3 text-sm">
+                    <div class="bg-white rounded-xl p-4 md:p-5 mb-6 flex-grow border border-ol-pink/20">
+                        <ul class="space-y-2.5 text-sm font-medium">
                             <li class="flex items-start gap-2"><span class="accent-dot">•</span> 4 Incontri live da 90 minuti (1 a settimana)</li>
-                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Analisi approfondita delle dinamiche personali</li>
-                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Gruppo WhatsApp dedicato piccolissimo (max 8)</li>
-                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Il Quaderno del tuo mese con OssitocinaLibera</li>
-                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Riepiloghi e indicazioni cliniche specifiche</li>
+                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Analisi clinica profonda delle dinamiche personali</li>
+                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Gruppo WhatsApp dedicato piccolissimo</li>
+                            <li class="flex items-start gap-2"><span class="accent-dot">•</span> Indicazioni tecniche specifiche passo-passo</li>
                         </ul>
                     </div>
 
-                    <div class="text-center mb-6">
-                        <div class="text-xs font-bold text-ol-orange mb-1 uppercase tracking-wider">Quota di lancio limitata</div>
-                        <div class="text-5xl font-heading font-extrabold mb-1">129 €</div>
-                        <div class="text-ol-dark/50 text-xs line-through decoration-ol-pink mb-2">Poi salirà a 149 €</div>
+                    <div class="text-center mb-5">
+                        <div class="text-[10px] font-bold text-ol-orange mb-0.5 uppercase tracking-wider">Quota di lancio</div>
+                        <div class="text-4xl font-heading font-extrabold mb-1">129 €</div>
                     </div>
 
-                    <a href="https://tidycal.com/ossitocinalibera/percorso-di-gruppo-atuofianco" target="_blank" rel="noopener noreferrer" class="btn-primary block w-full text-center py-4 rounded-xl font-heading font-bold text-sm md:text-lg">
+                    <a href="https://tidycal.com/ossitocinalibera/percorso-di-gruppo-atuofianco" target="_blank" rel="noopener noreferrer" class="btn-primary block w-full text-center py-3.5 rounded-xl font-heading font-bold text-sm">
                         ENTRA IN AL TUO FIANCO
                     </a>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- Nuova sezione FAQ (Conversion Booster) -->
-    <section class="py-16 md:py-20 px-6 lg:px-12 bg-gray-50 border-y border-gray-100">
+    <section class="py-12 md:py-16 px-6 lg:px-12 bg-gray-50 border-y border-gray-100">
         <div class="max-w-3xl mx-auto">
-            <h2 class="text-2xl md:text-3xl font-heading font-bold text-center mb-10 text-ol-dark">I dubbi più frequenti</h2>
-            <div class="space-y-6 text-sm md:text-base text-ol-dark/90">
+            <h2 class="text-2xl md:text-3xl font-heading font-bold text-center mb-8 text-ol-dark">I dubbi più frequenti</h2>
+            <div class="space-y-4 text-sm md:text-base text-ol-dark/90">
                 
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                    <p class="font-bold font-heading text-ol-magenta mb-2">Cosa succede se il bambino piange e salto una diretta?</p>
-                    <p>Nessun problema, la vita con i bambini piccoli è imprevedibile. Tutte le dirette vengono registrate e rese disponibili. Potrai guardarle quando il tuo bambino dorme o quando sei più tranquilla, e potrai farmi le domande nel gruppo WhatsApp.</p>
+                <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100">
+                    <p class="font-bold font-heading text-ol-magenta mb-1">Questo percorso sostituisce una consulenza individuale?</p>
+                    <p class="leading-snug">No. Ho creato questo servizio per chi ha bisogno di supporto continuativo e confronto, ma al momento non desidera o non necessita di una consulenza clinica 1-to-1 intensiva. È il tuo faro mensile.</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                    <p class="font-bold font-heading text-ol-magenta mb-2">Sto dando l'aggiunta o uso il tiralatte, questo percorso fa per me?</p>
-                    <p>Assolutamente sì. Come IBCLC non mi occupo solo di allattamento esclusivo al seno. Affronto costantemente strategie di allattamento misto, utilizzo corretto di biberon (es. pacing) e gestione del tiralatte. Qui non ci sono giudizi, solo supporto basato sulla scienza per i tuoi obiettivi.</p>
+                <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100">
+                    <p class="font-bold font-heading text-ol-magenta mb-1">Sto dando l'aggiunta, uso il tiralatte o sto per rientrare a lavoro. Fa per me?</p>
+                    <p class="leading-snug">Assolutamente sì. L'assistenza IBCLC copre tutto: dall'allattamento esclusivo, all'alimentazione mista, alle patologie del seno (ingorghi, mastiti), fino al momento di smettere. In ogni fase troverai vera accoglienza tecnica ed emotiva.</p>
                 </div>
-
-                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
-                    <p class="font-bold font-heading text-ol-magenta mb-2">Come funziona il gruppo WhatsApp?</p>
-                    <p>Non sarà una chat caotica h24. È un contenitore protetto dove potrai scrivere la tua domanda o il tuo dubbio nel momento in cui lo vivi, per non dimenticarlo. Io supervisionerò il gruppo fornendo le coordinate e riprenderemo i temi centrali per affrontarli con la giusta calma.</p>
+                
+                <div class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100">
+                    <p class="font-bold font-heading text-ol-magenta mb-1">Cosa succede se il bambino piange e salto una diretta?</p>
+                    <p class="leading-snug">Nessun problema, conosco bene l'imprevedibilità di questa fase. Tutte le dirette vengono registrate. Potrai guardarle quando il tuo bambino dorme e portarmi i tuoi dubbi direttamente nel gruppo WhatsApp.</p>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <section class="py-16 px-6 lg:px-12 bg-white">
-        <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-xl md:text-2xl font-heading font-bold mb-4">Non puoi esserci a ottobre o hai perso il posto?</h2>
-            <p class="text-sm md:text-base text-ol-dark/70 mb-8 px-4">
-                Le iscrizioni per questa classe chiudono il 27 Settembre. Lascia la tua mail per avere la priorità sulla prossima edizione prima che la comunichi sui social.
-            </p>
-            
-            <div class="inline-block border border-gray-100 rounded-3xl p-6 md:p-8 w-full sm:w-auto bg-gray-50 shadow-sm mx-auto">
-                <div class="text-xs font-bold uppercase tracking-widest text-ol-dark/50 mb-2">Lista Prioritaria</div>
-                <div class="text-2xl font-heading font-bold mb-6 text-ol-dark">NOVEMBRE</div>
-                <a href="https://preview.mailerlite.io/forms/1284806/198132443096548761/share" target="_blank" rel="noopener noreferrer" class="btn-secondary block w-full py-3 px-6 rounded-xl font-heading font-bold text-xs md:text-sm shadow-sm">
-                    AVVISAMI PER LA PROSSIMA EDIZIONE
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-ol-lightpink text-ol-dark py-16 md:py-24 px-6 lg:px-12 text-center rounded-t-[2rem] md:rounded-t-[3rem] mt-10 border-t border-ol-pink/30">
+    <footer class="bg-ol-lightpink text-ol-dark py-12 md:py-16 px-6 lg:px-12 text-center rounded-t-[2rem] mt-8 border-t border-ol-pink/30 mb-[60px] md:mb-0">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl md:text-5xl font-heading font-bold mb-6 text-ol-magenta">Ci vediamo il 1° ottobre?</h2>
-            <p class="text-base md:text-xl text-ol-dark/80 mb-10 max-w-2xl mx-auto leading-relaxed font-medium">
-                Scegli lo spazio in cui ti senti più a tuo agio.<br>
-                In entrambi i casi ci sarò io ad accoglierti.
-            </p>
-
-            <div class="inline-block bg-white px-4 md:px-6 py-3 rounded-full text-xs md:text-sm tracking-wider shadow-sm border border-ol-pink/20 mb-8 md:mb-12">
-                <span class="font-bold text-ol-magenta uppercase">Scadenza Iscrizioni: Domenica 27 Settembre</span>
+            <h2 class="text-2xl md:text-4xl font-heading font-bold mb-4 text-ol-magenta">Ci vediamo il 1° ottobre?</h2>
+            
+            <div class="inline-block bg-white px-4 py-2 rounded-full text-xs font-bold tracking-wider shadow-sm border border-ol-pink/20 mb-6">
+                <span class="text-ol-magenta uppercase">Scadenza Iscrizioni: Domenica 27 Settembre</span>
             </div>
 
-            <div class="pt-8 border-t border-ol-pink/50 flex flex-col sm:flex-row justify-center items-center gap-4 md:gap-6 text-xs md:text-sm font-medium text-ol-dark/60">
-                <a href="https://ossitocinalibera.it" target="_blank" rel="noopener noreferrer" class="hover:text-ol-magenta transition-colors">ossitocinalibera.it</a>
+            <div class="pt-6 border-t border-ol-pink/50 flex flex-col sm:flex-row justify-center items-center gap-3 text-xs md:text-sm font-medium text-ol-dark/60">
+                <a href="https://ossitocinalibera.it" target="_blank" class="hover:text-ol-magenta transition-colors">ossitocinalibera.it</a>
                 <span class="hidden sm:inline text-ol-pink">•</span>
-                <a href="https://instagram.com/ossitocinalibera" target="_blank" rel="noopener noreferrer" class="hover:text-ol-magenta transition-colors">@ossitocinalibera</a>
+                <a href="https://instagram.com/ossitocinalibera" target="_blank" class="hover:text-ol-magenta transition-colors">@ossitocinalibera</a>
             </div>
         </div>
     </footer>
 
     <!-- Sticky CTA per mobile -->
-    <div id="mobile-sticky-bar" class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-4 shadow-[0_-4px_15px_rgba(0,0,0,0.08)] md:hidden z-50 transition-transform duration-300 transform translate-y-0">
-        <a href="#percorsi" class="btn-primary block w-full text-center py-3.5 rounded-xl font-heading font-bold text-sm tracking-wide">
+    <div id="mobile-sticky-bar" class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-3 shadow-[0_-4px_15px_rgba(0,0,0,0.08)] md:hidden z-50 transition-transform duration-300 transform translate-y-0">
+        <a href="#percorsi" class="btn-primary block w-full text-center py-3 rounded-xl font-heading font-bold text-sm tracking-wide">
             BLOCCA IL TUO POSTO ORA
         </a>
     </div>
 
     <script>
+        // Logica per mostrare/nascondere la barra sticky su mobile
         document.addEventListener("DOMContentLoaded", function() {
             const stickyBar = document.getElementById('mobile-sticky-bar');
             const targetSection = document.getElementById('percorsi');
-            
-            if(!stickyBar || !targetSection) return;
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if(entry.isIntersecting) {
-                        stickyBar.classList.add('translate-y-full');
-                    } else {
-                        stickyBar.classList.remove('translate-y-full');
-                    }
-                });
-            }, {
-                root: null,
-                threshold: 0.1
-            });
-
-            observer.observe(targetSection);
+            if(stickyBar && targetSection) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if(entry.isIntersecting) stickyBar.classList.add('translate-y-full');
+                        else stickyBar.classList.remove('translate-y-full');
+                    });
+                }, { root: null, threshold: 0.1 });
+                observer.observe(targetSection);
+            }
         });
+
+        // Logica del Contatore (Scade il 27 Settembre 2026 alle 23:59:59)
+        const countDownDate = new Date("Sep 27, 2026 23:59:59").getTime();
+
+        const x = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = countDownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            if (document.getElementById("days")) {
+                document.getElementById("days").innerHTML = days < 10 ? "0" + days : days;
+                document.getElementById("hours").innerHTML = hours < 10 ? "0" + hours : hours;
+                document.getElementById("minutes").innerHTML = minutes < 10 ? "0" + minutes : minutes;
+                document.getElementById("seconds").innerHTML = seconds < 10 ? "0" + seconds : seconds;
+            }
+
+            // Se il conto alla rovescia è finito
+            if (distance < 0) {
+                clearInterval(x);
+                if (document.getElementById("countdown-container")) {
+                    document.getElementById("countdown-container").innerHTML = "<div class='text-ol-magenta font-bold text-lg md:text-xl mt-3 bg-white/80 py-2 px-6 rounded-xl border border-ol-pink'>ISCRIZIONI CHIUSE</div>";
+                }
+            }
+        }, 1000);
     </script>
 </body>
 </html>
